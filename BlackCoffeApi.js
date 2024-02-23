@@ -49,12 +49,12 @@ mongoose.connect(url, { useNewUrlParser: true, useUnifiedTopology: true })
         console.log("Connected to MongoDB");
 
         // Insert the data into the database
-        try {
-            await Data.insertMany(data); // Use async/await to ensure proper insertion
-            console.log("Data inserted successfully");
-        } catch (err) {
-            console.error("Error inserting data:", err);
-        }
+        // try {
+        //     await Data.insertMany(data); // Use async/await to ensure proper insertion
+        //     console.log("Data inserted successfully");
+        // } catch (err) {
+        //     console.error("Error inserting data:", err);
+        // }
     })
     .catch(err => console.error("Error connecting to MongoDB:", err));
 
