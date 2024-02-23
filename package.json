@@ -1,0 +1,16 @@
+{
+  "name": "projectapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BlackCoffeApi.js",
+  "scripts": {
+    "start": "node BlackCoffeApi.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.0.12"
+  }
+}
